@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Running Sums and Factorials</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Running Sums and Factorials">
+  <meta name="author" content="stully">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Running Sums and Factorials</h1>
+    <h2>Developing Data Products Student Project</h2>
+    <p>stully<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Premise</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>What do you do when you need to quickly calculate a summation or factorial but you&#39;ve forgotten your trusty TI83 and only have access to the web? Run the</p>
+
+<p><a href="https://stully.shinyapps.io/ShinyClassProject/">Sum/Factorial app</a> </p>
+
+<p>The Slide allows for easy numeral selection and the dropdown allows you to toggle between a Sum result or a Factorial.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Rational and Support Documents</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The published app allows for easy evaluation in the following ways</p>
+
+<ul>
+<li>Eliminate the need for manual calculations</li>
+<li>Simple slider and dropdown interface</li>
+<li>Easy transition between the two values for the same number</li>
+</ul>
+
+<p>App URL: <a href="https://stully.shinyapps.io/ShinyClassProject/">https://stully.shinyapps.io/ShinyClassProject/</a></p>
+
+<p>GitHub Repo: <a href="https://github.com/stully2/CP_ShinyApp.git">https://github.com/stully2/CP_ShinyApp.git</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Summation</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The summation of natrual numbers \(1 + 2 + 3 + \ldots + n\) can be represented with the following formula.</p>
+
+<p>\[\sum_{k=1}^n = \frac{n(n+1)}{2}\]</p>
+
+<p>While simplified, this calculation can become cumbersome as one reaches larger digits.</p>
+
+<p>Sample Calculation of \(\sum_{i=1}^5\):</p>
+
+<pre><code class="r">  sum(1:5)
+</code></pre>
+
+<pre><code>## [1] 15
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Factorial</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The factorial is defined as follows</p>
+
+<p>\[
+\begin{align}
+n! = 1 && \text{when n = 0}\\
+n! = 1 * 2 *3 * \ldots * n && \text{when n>0}
+\end{align}
+\]</p>
+
+<p>Obviously, this calculation can be more manually time consuming than that of summations.</p>
+
+<p>Sample Calculation of 5!:</p>
+
+<pre><code class="r">  factorial(5)
+</code></pre>
+
+<pre><code>## [1] 120
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Conclusion</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>While there are built in functions for these calculation in most calculators and programming languages, the discussed interface can be provided for the layman with no need for them to learn the appropriate languages.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Premise'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Rational and Support Documents'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Summation'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Factorial'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Conclusion'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='NA'>
+         6
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
