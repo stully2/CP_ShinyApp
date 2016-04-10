@@ -16,7 +16,7 @@ shinyUI(fluidPage(
   sidebarLayout(
     sidebarPanel(
       sliderInput("n",
-                  "N:",
+                  "n:",
                   min = 0,
                   max = 20,
                   value = 1)
@@ -28,10 +28,11 @@ shinyUI(fluidPage(
 
     
     
-    # Show a plot of the generated distribution
+    # Show Results
     mainPanel(
       h4("Results")
       , verbatimTextOutput("summary")
+      , h3("Please use the slider to select your max n and the dropdown to choose to calculate either a Sum 1:n or n!")
     )
   )
 ))

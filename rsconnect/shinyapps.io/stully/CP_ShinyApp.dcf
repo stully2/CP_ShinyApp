@@ -1,0 +1,9 @@
+name: CP_ShinyApp
+account: stully
+server: shinyapps.io
+appId: 93438
+bundleId: 415391
+url: https://stully.shinyapps.io/CP_ShinyApp/
+when: 1460328035.77626
+asMultiple: FALSE
+asStatic: FALSE

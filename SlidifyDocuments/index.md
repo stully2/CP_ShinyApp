@@ -16,7 +16,7 @@ knit        : slidify::knit2slides
 
 What do you do when you need to quickly calculate a summation or factorial but you've forgotten your trusty TI83 and only have access to the web? Run the
 
-[Sum/Factorial app](https://stully.shinyapps.io/ShinyClassProject/) 
+[Sum/Factorial app](http://stully.shinyapps.io/CP_ShinyApp/) 
 
 The Slide allows for easy numeral selection and the dropdown allows you to toggle between a Sum result or a Factorial.
 
@@ -31,9 +31,9 @@ The published app allows for easy evaluation in the following ways
 * Easy transition between the two values for the same number
 
 
-App URL: https://stully.shinyapps.io/ShinyClassProject/
+App URL: http://stully.shinyapps.io/CP_ShinyApp/
 
-GitHub Repo: https://github.com/stully2/CP_ShinyApp.git
+GitHub Repo: http://github.com/stully2/CP_ShinyApp.git
 
 ---
 
